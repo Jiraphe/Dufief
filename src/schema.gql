@@ -1,0 +1,14 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Team {
+  id: Int!
+  name: String!
+  point: Int!
+  fairplay: Int!
+}
+
+type Query {
+  teams: [Team!]!
+}
